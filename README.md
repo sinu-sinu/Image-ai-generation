@@ -1,4 +1,4 @@
-# Optizon Yoga Pose Image Generator
+# Yoga Pose Image Generator
 
 This project automates the generation of yoga pose illustrations using the Hugging Face FLUX.1-dev model, uploads them to Imgur, and inserts the resulting image URLs into a Google Sheet.
 
@@ -88,11 +88,3 @@ python test/test_stability.py
 - [`sheets/sheet_handler.py`](sheets/sheet_handler.py): Reads/writes to Google Sheets.
 - [`prompts/prompt_generator.py`](prompts/prompt_generator.py): Builds prompts for image generation.
 - [`src/main.py`](src/main.py): Main orchestration script.
-
-## License
-
-This project is for educational and internal use only.
-
----
-
-**Note:** Do not commit sensitive files such as `.env` or `data_sheets_key.json` to public repositories.

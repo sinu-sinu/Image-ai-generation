@@ -19,7 +19,7 @@ def main():
 
     for index, pose_title in enumerate(poses):
         if not pose_title.strip():
-            continue  # Skip empty rows
+            continue  
 
         prompt = generate_prompt(
             content_title=pose_title,
